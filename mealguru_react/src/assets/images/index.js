@@ -1,20 +1,20 @@
-import boximage from './images/boximage'
-import accimg from './accimg';
-import chooseimg from './chooseimg';
-import facebook from './facebook';
-import feed1 from './feed1';
-import feed2 from './feed2';
-import feed3 from './feed3';
-import instagram from './instagram';
-import logo from './logo';
-import section1 from './section1';
-import section2 from './section2';
-import section3 from './section3';
-import section4 from './section4';
-import tiktok from './tiktok';
-import youtube from '../imagesyoutube';
+import boximage from '../images/boximage.gif';
+import accimg from '../images/acc-img.gif';
+import chooseimg from '../images/choose-img.gif';
+import facebook from '../images/facebook.gif';
+import feed1 from '../images/feed1.gif';
+import feed2 from '../images/feed2.gif';
+import feed3 from '../images/feed3.gif';
+import instagram from '../images/instagram.gif';
+import logo from '../images/logo.png';
+import section1 from '../images/section1.gif';
+import section2 from '../images/section2.gif';
+import section3 from '../images/section3.gif';
+import section4 from '../images/section4.gif';
+import tiktok from '../images/tiktok.gif';
+import youtube from '../images/youtube.gif';
 
-export {
+export { 
     boximage,
     accimg,
     chooseimg,
@@ -30,4 +30,4 @@ export {
     section4,
     tiktok,
     youtube
-}
+};
