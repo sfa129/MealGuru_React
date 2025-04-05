@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css';
 import { boximage, logo } from '../src/assets/images/index';
 
 function App() {
