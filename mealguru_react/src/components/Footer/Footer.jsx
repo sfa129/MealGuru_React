@@ -54,6 +54,14 @@ function Footer() {
             </div>
           </div>
         </div>
+
+        <div className='copyright-div'>
+          <div className='copyright'>
+            <p>&copy; MyMealGuru 2024. All Rights Reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+          </div>
+        </div>
+
       </footer>
 
     </>
