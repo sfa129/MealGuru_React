@@ -13,6 +13,7 @@ import section3 from '../images/section3.gif';
 import section4 from '../images/section4.gif';
 import tiktok from '../images/tiktok.gif';
 import youtube from '../images/youtube.gif';
+import imgportionright from '../images/imgportionright.gif'
 
 export { 
     boximage,
@@ -29,5 +30,6 @@ export {
     section3,
     section4,
     tiktok,
-    youtube
+    youtube,
+    imgportionright
 };
