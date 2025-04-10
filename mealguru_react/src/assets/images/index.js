@@ -13,8 +13,9 @@ import section3 from '../images/section3.gif';
 import section4 from '../images/section4.gif';
 import tiktok from '../images/tiktok.gif';
 import youtube from '../images/youtube.gif';
-import imgportionright from '../images/imgportionright.gif'
-
+import imgportionright from '../images/imgportionright.gif';
+import visionimg from '../images/vision-image.gif';
+import whatwedoFirst from '../images/whatwedoFirst.gif';
 export { 
     boximage,
     accimg,
@@ -31,5 +32,7 @@ export {
     section4,
     tiktok,
     youtube,
-    imgportionright
+    imgportionright,
+    visionimg,
+    whatwedoFirst
 };

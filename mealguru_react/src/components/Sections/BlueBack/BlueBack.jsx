@@ -1,12 +1,12 @@
 import React from 'react';
 import './BlueBack.css';
 
-function BlueBack({ text }) {
+function BlueBack({ page, prevPage }) {
   return (
     <>
     <div className='blue-back'>
         <div className='blue-img'>
-            <h5>About Us <br /> <span>Home{"<"}About</span> </h5>
+            <h5>{page} <br /> <span>{prevPage}</span> </h5>
         </div>
     </div>
     </>

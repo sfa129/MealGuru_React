@@ -1,14 +1,15 @@
 .portion-right {
     height: 350px;
-    background-color: #fff7e3;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+/* 
+.bg-color {
+
+} */
 
 .inner-right {
-    background-color: #fff7e3;
     width: 950px;
     display: flex;
     justify-content: space-between;

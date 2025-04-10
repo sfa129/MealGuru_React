@@ -6,7 +6,7 @@
 }
 
 .choose-img {
-    background-image: url(../../../assets/images/choose-img.gif);
+    /* background-image: url(../../../assets/images/choose-img.gif); */
     width: 460px;
     height: 280px;
     background-size: cover;
@@ -43,7 +43,7 @@
     color: #696969;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .choose-text-btn {

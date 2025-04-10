@@ -1,17 +1,23 @@
 import React from 'react';
 import './DescPortion.css';
-
-function DescPortion({ heading, subheading, description, button }) {
+import {whatwedoFirst} from '../../../assets/images/index';
+ 
+function DescPortion({ img, heading, subheading, description, button, bgColor, status }) {
+    const styling = {
+        backgroundColor: bgColor,
+    }
     return (
         <>
-            <div className="choose-two">
-                <div className="choose-img"></div>
+            <div className="choose-two" style={styling}>
+                <div>
+                    <img src={img} alt="" className="choose-img"/>
+                </div>
                 <div className="choose-contents">
                     <h2>{heading}</h2>
                     <h4>{subheading}</h4>
                     <p>{description}</p>
-                    <div className="choose-text-btn">
-                        <p>{button}</p>
+                    <div className="choose-text-btn" style={styling}>
+                        <p >{button}</p>
                     </div>
                 </div>
             </div>
