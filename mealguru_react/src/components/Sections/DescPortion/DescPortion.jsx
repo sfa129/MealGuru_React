@@ -2,7 +2,7 @@ import React from 'react';
 import './DescPortion.css';
 import {whatwedoFirst} from '../../../assets/images/index';
  
-function DescPortion({ img, heading, subheading, description, button, bgColor, status }) {
+function DescPortion({ img, heading, subheading, description, button, bgColor }) {
     const styling = {
         backgroundColor: bgColor,
     }
