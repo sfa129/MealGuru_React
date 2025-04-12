@@ -3,12 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px
+    padding: 30px;
 }
-/* 
-.bg-color {
 
-} */
 
 .inner-right {
     width: 950px;
@@ -18,8 +15,8 @@
 }
 
 .text-right {
-    width: 45%;
-    padding-top: 30px;
+    width: 47%;
+    padding-top: 30px
 }
 
 .text-right h2 {
@@ -35,9 +32,8 @@
     color: #696969;
     line-height: 20px;
 }
-
 .img-right img {
     height: 270px;
-    width: 446px; 
+    width: 460px; 
     border-radius: 10px;  
 }

@@ -22,8 +22,8 @@ function Whatwedo() {
 
     />
     <ImagePortionLeft img={whatwedoThree} heading="Empowering Sustainable Living Through Thoughtful Meal Planning"
-                      text={"At My Meal Guru, sustainability is more than just a goal—it’s our commitment. Our innovative app ensures that every ingredient is used efficiently, helping you reduce waste while enjoying delicious, nutritious meals. With our meal plans, you can embrace eco-conscious living that’s as good for the planet as it is for you!.\n Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!. \n\n Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!"}
-                      bgcolor="#fff7e3" width="500px" height="380px"
+                      text={"At My Meal Guru, sustainability is more than just a goal—it’s our commitment. Our innovative app ensures that every ingredient is used efficiently, helping you reduce waste while enjoying delicious, nutritious meals. With our meal plans, you can embrace eco-conscious living that’s as good for the planet as it is for you!. Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!. Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!"}
+                      bgcolor="#fff7e3" width="490px" height="360px" pTop="0px"
     />
     </>
   )

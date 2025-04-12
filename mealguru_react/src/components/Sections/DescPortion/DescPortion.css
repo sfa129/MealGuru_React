@@ -1,12 +1,11 @@
 .choose-two {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     width: 100%;
 }
 
 .choose-img {
-    /* background-image: url(../../../assets/images/choose-img.gif); */
     width: 460px;
     height: 280px;
     background-size: cover;

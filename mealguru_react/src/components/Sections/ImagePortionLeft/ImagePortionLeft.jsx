@@ -1,7 +1,7 @@
 import React from 'react';
 import '../ImagePortionRight/ImagePortionRight.css';
 
-function ImagePortionLeft({ img, heading, text, bgcolor, width , height }) {
+function ImagePortionLeft({ img, heading, text, bgcolor, width , height, pTop }) {
     const bgColor = {
         backgroundColor: bgcolor,
     }
@@ -10,6 +10,9 @@ function ImagePortionLeft({ img, heading, text, bgcolor, width , height }) {
         width: width,
         height: height
     }
+    const padding = {
+        paddingTop: pTop
+    }
     return (
         <>
             <div className='portion-right' style={bgColor}>
@@ -17,7 +20,7 @@ function ImagePortionLeft({ img, heading, text, bgcolor, width , height }) {
                     <div className='img-right' style={bgColor}>
                         <img src={img} alt=""  style={size}/>
                     </div>
-                    <div className='text-right'>
+                    <div className='text-right' style={padding}>
                         <h2>{heading}</h2>
                         <p>{text}</p>
                     </div>
