@@ -17,6 +17,7 @@ import imgportionright from '../images/imgportionright.gif';
 import visionimg from '../images/vision-image.gif';
 import whatwedoFirst from '../images/whatwedoFirst.gif';
 import whatwedoSecond from '../images/whatwedoSecond.gif';
+import whatwedoThree from '../images/whatwedoThree.gif';
 
 
 export { 
@@ -38,6 +39,6 @@ export {
     imgportionright,
     visionimg,
     whatwedoFirst,
-    whatwedoSecond
-    
+    whatwedoSecond,
+    whatwedoThree
 };

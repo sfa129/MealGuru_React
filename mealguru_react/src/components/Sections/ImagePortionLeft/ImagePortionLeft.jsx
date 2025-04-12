@@ -1,16 +1,21 @@
 import React from 'react';
 import '../ImagePortionRight/ImagePortionRight.css';
 
-function ImagePortionLeft({ img, heading, text, bgcolor }) {
+function ImagePortionLeft({ img, heading, text, bgcolor, width , height }) {
     const bgColor = {
         backgroundColor: bgcolor,
+    }
+
+    const size = {
+        width: width,
+        height: height
     }
     return (
         <>
             <div className='portion-right' style={bgColor}>
                 <div className='inner-right'>
                     <div className='img-right' style={bgColor}>
-                        <img src={img} alt="" />
+                        <img src={img} alt=""  style={size}/>
                     </div>
                     <div className='text-right'>
                         <h2>{heading}</h2>

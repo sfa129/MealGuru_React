@@ -1,8 +1,9 @@
 import React from 'react'
 import BlueBack from '../Sections/BlueBack/BlueBack';
 import DescPortion from '../Sections/DescPortion/DescPortion';
-import { whatwedoFirst, whatwedoSecond } from '../../assets/images';
+import { whatwedoFirst, whatwedoSecond, whatwedoThree } from '../../assets/images';
 import ImagePortionRight from '../Sections/ImagePortionRight/ImagePortionRight'
+import ImagePortionLeft from '../Sections/ImagePortionLeft/ImagePortionLeft'
 
 function Whatwedo() {
   return (
@@ -20,8 +21,12 @@ function Whatwedo() {
                       text = "Cooking at home should be rewarding—not overwhelming. But let’s face it: planning meals and finding recipes takes time. That’s why My Meal Guru is here to simplify the process, crafting meals and recipes that are personalized to your preferences and dietary needs. Say goodbye to guesswork and hello to stress-free cooking. Ready to take the first step toward effortless meal planning? Explore more possibilities on YouTube by visiting: https://youtu.be/a53bQ4JODDM"
 
     />
+    <ImagePortionLeft img={whatwedoThree} heading="Empowering Sustainable Living Through Thoughtful Meal Planning"
+                      text={"At My Meal Guru, sustainability is more than just a goal—it’s our commitment. Our innovative app ensures that every ingredient is used efficiently, helping you reduce waste while enjoying delicious, nutritious meals. With our meal plans, you can embrace eco-conscious living that’s as good for the planet as it is for you!.\n Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!. \n\n Ready to revolutionize your approach to meal planning? Click 'Start Your Demo' above to get your first meal plan and recipes for Free!"}
+                      bgcolor="#fff7e3" width="500px" height="380px"
+    />
     </>
   )
 }
 
-export default Whatwedo
+export default Whatwedo;

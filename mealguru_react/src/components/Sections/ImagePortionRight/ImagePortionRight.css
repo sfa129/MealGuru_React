@@ -1,8 +1,9 @@
 .portion-right {
-    height: 350px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px
 }
 /* 
 .bg-color {
