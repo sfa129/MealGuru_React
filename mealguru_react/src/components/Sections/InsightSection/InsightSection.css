@@ -1,0 +1,31 @@
+.insight-card {
+    border: 2px solid black;
+    width: 410px;
+    height: 340px;
+    box-shadow: 1px 1px 30px -30px black;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #ffffffa0;
+}
+
+.inside-card {
+    border: 2px solid black;
+    box-shadow: 1px 1px 30px -30px black;
+    background-color: #ffffff;
+    width: 96%;
+    height: 96%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* .insight-content {
+
+} */
+
+.inside-card img {
+    height: 150px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* margin-right: auto; */
+}

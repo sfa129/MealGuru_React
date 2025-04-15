@@ -18,6 +18,11 @@ import visionimg from '../images/vision-image.gif';
 import whatwedoFirst from '../images/whatwedoFirst.gif';
 import whatwedoSecond from '../images/whatwedoSecond.gif';
 import whatwedoThree from '../images/whatwedoThree.gif';
+import card1 from '../images/card1.gif';
+import cardTwo from '../images/card2.gif';
+import cardThree from '../images/card3.gif';
+import cardFour from '../images/card4.gif';
+
 
 
 export { 
@@ -40,5 +45,9 @@ export {
     visionimg,
     whatwedoFirst,
     whatwedoSecond,
-    whatwedoThree
+    whatwedoThree,
+    card1,
+    cardTwo,
+    cardThree,
+    cardFour
 };

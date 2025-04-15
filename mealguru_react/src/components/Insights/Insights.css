@@ -10,7 +10,7 @@
 .Insight-Text h1{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -26,10 +26,9 @@
 
 /* Insight-Card */
 
-.Insight-Card {
+.Insight-Div {
     background-color: #fff7e3;
-    height: 200px;
-    border: 2px solid black;
+    height: auto;
     width: 950px;
     margin-right: auto;
     margin-left: auto;

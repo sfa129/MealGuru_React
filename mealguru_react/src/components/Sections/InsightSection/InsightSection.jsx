@@ -1,10 +1,14 @@
 import React from 'react';
 import './InsightSection.css';
 
-function InsightSection() {
+function InsightSection({ img }) {
   return (
     <>
-    
+      <div className='insight-card'>
+        <div className='inside-card'>
+            <img src={img} alt="" />
+        </div>
+      </div>
     </>
   )
 }
