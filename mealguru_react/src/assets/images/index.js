@@ -22,7 +22,8 @@ import cardOne from '../images/card1.gif';
 import cardTwo from '../images/card2.gif';
 import cardThree from '../images/card3.gif';
 import cardFour from '../images/card4.gif';
-import contact from '../images/contact.gif'
+import contact from '../images/contact.gif';
+import loginimg from '../images/loginimg.png'
 
 
 export { 
@@ -50,5 +51,6 @@ export {
     cardTwo,
     cardThree,
     cardFour,
-    contact
+    contact,
+    loginimg
 };
