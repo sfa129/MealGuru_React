@@ -41,7 +41,7 @@
 
 .contact-right img {
     width: 466px;
-    height: 611px;
+    height: 561px;
     border-radius: 15px;
 }
 /* contact-form */
@@ -73,6 +73,10 @@
     padding: 11px 20px;
 }
 
+.input-firstline input::placeholder {
+    font-size: 12px;
+}
+
 .input-firstline input:focus {
     outline: none
 }
@@ -99,6 +103,10 @@
     outline:none;
 }
 
+.input-email input::placeholder {
+    font-size: 12px;
+}
+
 .input-textarea {
     width: 92%;
     /* border: 2px solid black; */
@@ -120,3 +128,29 @@
 .input-textarea textarea:focus {
     outline: none
 }
+
+.input-textarea textarea::placeholder {
+    font-size: 12px;
+}
+
+/* button */
+
+.buttonOne {
+    height: 30px;
+    width: 95px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top:10px;
+}
+
+.buttonOne:hover {
+    cursor: pointer;;
+}
+ 
+
+ 
