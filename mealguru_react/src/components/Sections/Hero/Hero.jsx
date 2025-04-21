@@ -21,7 +21,7 @@ function Hero() {
                         </div>
 
                         <h5>Sign up for a 7-day FREE TRIAL and get 15% OFF your first kitchen store order of curated cooking
-                            <br /> essentials!
+                             essentials!
                         </h5>
 
                     </div>
