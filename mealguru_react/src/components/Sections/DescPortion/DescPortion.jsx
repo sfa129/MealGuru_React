@@ -1,6 +1,5 @@
 import React from 'react';
 import './DescPortion.css';
-import {whatwedoFirst} from '../../../assets/images/index';
  
 function DescPortion({ img, heading, subheading, description, button, bgColor }) {
     const styling = {
@@ -9,7 +8,7 @@ function DescPortion({ img, heading, subheading, description, button, bgColor })
     return (
         <>
             <div className="choose-two" style={styling}>
-                <div>
+                <div className='image-div'>
                     <img src={img} alt="" className="choose-img"/>
                 </div>
                 <div className="choose-contents">

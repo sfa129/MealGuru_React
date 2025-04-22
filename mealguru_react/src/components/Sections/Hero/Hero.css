@@ -74,7 +74,7 @@
  */
 
 
- /* Base styles (Extra Large: 1201px and above) */
+/* Base styles (Extra Large: 1201px and above) */
 .second-portion {
     height: 690px;
     background-color: #fff7e3;
@@ -117,7 +117,8 @@
     flex-wrap: wrap;
 }
 
-.box-btn1, .box-btn2 {
+.box-btn1,
+.box-btn2 {
     height: 30px;
     width: 250px;
     background-color: #ffcc57;
@@ -127,7 +128,8 @@
     align-items: center;
 }
 
-.box-btn1 p, .box-btn2 p {
+.box-btn1 p,
+.box-btn2 p {
     font-size: 13px;
     color: #000000;
 }
@@ -150,8 +152,12 @@
 
 /* Medium: 769px to 992px */
 @media (max-width: 992px) {
+    .second-portion {
+        height: 610px;
+    }
+    
     .box-img {
-        width: 700px;
+        width: 720px;
         height: 450px;
     }
 
@@ -163,15 +169,20 @@
         font-size: 12px;
     }
 
-    .box-btn1, .box-btn2 {
+    .box-btn1,
+    .box-btn2 {
         width: 220px;
     }
 }
 
 /* Small: 577px to 768px */
 @media (max-width: 768px) {
+
+    .second-portion {
+        height: 550px;
+    }
     .box-img {
-        width: 500px;
+        width: 90vw;
         height: 400px;
         margin-top: 100px;
     }
@@ -182,16 +193,18 @@
 
     .box-text h5 {
         font-size: 11px;
-        margin-left:30px;
-        margin-right:30px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
-    .box-btn1, .box-btn2 {
+    .box-btn1,
+    .box-btn2 {
         width: 180px;
         height: 28px;
     }
 
-    .box-btn1 p, .box-btn2 p {
+    .box-btn1 p,
+    .box-btn2 p {
         font-size: 12px;
     }
 }
@@ -201,11 +214,12 @@
     .second-portion {
         height: auto;
         padding: 40px 10px;
+        
     }
 
     .box-img {
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         height: auto;
         margin-top: 80px;
         padding: 20px;
@@ -221,9 +235,11 @@
         font-size: 12px;
     }
 
-    .box-btn1, .box-btn2 {
-        width: 100%;
-        margin: 5px 0;
+    .box-btn1,
+    .box-btn2 {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .btns {
