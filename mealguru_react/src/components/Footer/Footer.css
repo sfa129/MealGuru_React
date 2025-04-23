@@ -188,8 +188,8 @@
 /* Small (577px - 768px) */
 @media (max-width: 768px) {
     .footer {
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column; */
+        /* align-items: center; */
         height: auto;
         padding: 30px 15px;
     }
@@ -198,7 +198,7 @@
     .thirdcol,
     .fourthcol {
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
     }
     .subscribe {
         flex-direction: column;
@@ -207,7 +207,7 @@
         padding: 10px;
     }
     .subscribe input {
-        width: 100%;
+        width: 30%;
         border-radius: 20px;
         margin-bottom: 10px;
     }
