@@ -157,112 +157,58 @@
 /* Large (993px - 1200px) */
 @media (max-width: 1200px) {
     .footer {
-        gap: 35px;
+        gap: 5vw;
     }
 }
-/* Extra Small Devices (phones, <576px) */
-@media (max-width: 575px) {
+/* Medium (769px - 992px) */
+@media (max-width: 992px) {
     .footer {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        padding: 40px 20px;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .firstcol, .seccol, .thirdcol {
-        width: 100%;
-    }
-
-    .subscribe {
-        width: 100%;
-        flex-direction: column;
-        height: auto;
-        border-radius: 20px;
-    }
-
-    .subscribe input {
-        width: 90%;
-        border-radius: 20px;
-        margin-bottom: 10px;
-        padding: 10px 15px;
-    }
-
-    .sub-button {
-        width: 90%;
-        height: 40px;
-        border-radius: 20px;
-    }
-
-    .copyright {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        height: auto;
-        padding: 10px 0;
-        text-align: center;
-    }
-}
-
-/* Small Devices (landscape phones, 576px–767px) */
-@media (min-width: 576px) and (max-width: 767px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        padding: 50px 40px;
-        gap: 40px;
-    }
-
-    .firstcol, .seccol, .thirdcol {
-        width: 90%;
-        text-align: center;
-    }
-
-    .subscribe {
-        width: 100%;
-    }
-
-    .subscribe input {
-        width: 70%;
-    }
-
-    .sub-button {
-        width: 30%;
-    }
-
-    .copyright {
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        padding: 10px 0;
-    }
-}
-
-/* Medium Devices (tablets, 768px–991px) */
-@media (min-width: 768px) and (max-width: 991px) {
-    .footer {
-        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 30px;
         height: auto;
-        padding: 50px 30px;
+        padding-bottom: 30px;
+        gap: 11vw;
+    }   
+    .firstcol {
+        width: 40vw;
     }
 
-    .firstcol, .seccol, .thirdcol {
-        width: 45%;
+    .fourthcol {
+        margin-top: -10vh;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        
     }
-
-    .subscribe {
-        width: 80%;
+    .fourthcol p {
+        text-align: center;
+    }
+    .subscribe  {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .copyright {
-        width: 100%;
-        padding: 0 20px;
+        flex-direction: column;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small (577px - 768px) */
+@media (max-width: 768px) {
+    .fourthcol {
+        margin-top: -3vh;
+    }
+}
+
+/* Extra Small (up to 576px) */
+@media (max-width: 576px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+    .firstcol {
+        width: 70vw;
+        margin-right: 30px;
     }
 }
