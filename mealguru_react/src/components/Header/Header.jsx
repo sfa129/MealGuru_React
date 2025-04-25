@@ -28,6 +28,8 @@ function Header() {
               <NavLink className="button2-link" to='/login'>Login</NavLink>
             </div>
           </div>
+
+          
         </div>
       </header>
     </>
