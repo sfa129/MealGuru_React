@@ -160,11 +160,109 @@
         gap: 35px;
     }
 }
+/* Extra Small Devices (phones, <576px) */
+@media (max-width: 575px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 40px 20px;
+        gap: 30px;
+        text-align: center;
+    }
 
-/* Medium (769px - 992px) */
-@media (max-width: 992px) {
-    .firstcol {
-        width: 900px;
+    .firstcol, .seccol, .thirdcol {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .subscribe input {
+        width: 90%;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+    }
+
+    .sub-button {
+        width: 90%;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+/* Small Devices (landscape phones, 576px–767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 50px 40px;
+        gap: 40px;
+    }
+
+    .firstcol, .seccol, .thirdcol {
+        width: 90%;
+        text-align: center;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .subscribe input {
+        width: 70%;
+    }
+
+    .sub-button {
+        width: 30%;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+/* Medium Devices (tablets, 768px–991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        height: auto;
+        padding: 50px 30px;
+    }
+
+    .firstcol, .seccol, .thirdcol {
+        width: 45%;
+    }
+
+    .subscribe {
+        width: 80%;
+    }
+
+    .copyright {
+        width: 100%;
+        padding: 0 20px;
     }
 }
