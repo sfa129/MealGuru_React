@@ -10,8 +10,8 @@ function Footer() {
         <div className="footer">
           <div className="firstcol">
             <img src={logo} />
-            <p>MyMealGuru is here to revolutionize the way you <br /> plan your meals. Click here to discover how
-              we're <br /> making that happen - one personalized meal at a <br /> time.</p>
+            <p>MyMealGuru is here to revolutionize the way you plan your meals. Click here to discover how
+              we're making that happen - one personalized meal at a time.</p>
           </div>
 
           <div className="seccol">
